@@ -1,0 +1,642 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Audiowide', cursive;
+    line-height: 30px;
+}
+
+
+
+
+
+@media (min-width: 320px) {
+
+      /* menu mobilne start */
+
+
+  
+      #menu-button {
+        display: none;
+    }
+
+    #menu {
+        list-style: none;
+        float: left;
+        width: 100%;
+    }
+
+    #menu li {
+        float: left;
+        display: block;
+        padding: 0 1%;
+    }
+
+    #menu li a {
+        text-decoration: none;
+        color: #222;
+    }
+
+    /* @media screen and (min-width: 480px) {
+        #menu {
+            display: block !important;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        #menu {
+            display: none;
+        } */
+
+        #menu li {
+            width: 100%;
+            padding: 2% 0;
+        }
+
+        #menu-button {
+            display: block;
+        }
+
+        /* menu mobilne koniec */
+
+    .menu{
+        display: none;
+    }
+
+    nav {
+        background-color: white;
+        height: 80px;
+        opacity: .9;
+        border-bottom: 1px solid orange;
+
+    }
+
+    nav h1 {
+        color: black;
+        float: left;
+        padding: 10px 20px 0 20px;
+    }
+
+    nav i {
+        color: black;
+        padding: 20px 10px 0 20px;
+        clear: both;
+    }
+
+    nav ul {
+        margin: 10px 0 0 0;
+        color: black;
+        padding: 0;
+        float: left;
+        text-align: center;
+        padding: 0 0 0 10px;
+        width: 100%;
+    }
+
+    nav li {
+        font-size: 12px;
+        display: inline;
+        list-style-type: none;
+
+    }
+
+    /* nav a {
+        text-decoration: none;
+        color: black;
+    } */
+
+
+
+    .offer {
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        color: black;
+        justify-content: flex-start;
+    }
+
+    /* .offer p {
+
+        color: black;
+        text-align: center;
+        text-align: justify;
+    } */
+
+
+
+    .flex-content {
+        width: 100vw;
+         /* padding: 40px; */
+        color: black;
+        padding: 20px 10px 20px 10px;
+        text-align: center;
+
+    }
+
+    .flex-content img {
+        margin: 10px auto;
+        display: block;
+        width: 100%;
+        padding: 10px;
+
+
+    }
+
+    h2 {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+
+    footer p {
+        padding: 0 0 0 20px;
+    }
+
+    footer .media i {
+        /* display: block; */
+        padding: 0 40px 0 40px;
+
+    }
+
+
+
+    .parralax1 {
+        background-image: url('img/oldtimer-1287710_1920.jpg');
+        height: 30vh;
+        width: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-bottom: 1px solid orange;
+        border-top: 1px solid orange;
+
+    }
+
+    .parralax2 {
+        background-image: url('img/innocars_poland13.jpg');
+        height: 30vh;
+        width: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-bottom: 1px solid orange;
+        border-top: 1px solid orange;
+    }
+
+    .parralax3 {
+        background-image: url('img/innocars_poland14.jpg');
+        height: 30vh;
+        width: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-bottom: 1px solid orange;
+        border-top: 1px solid orange;
+    }
+
+    .parallax4 {
+        background-image: url('img/innocars_poland15.jpg');
+        height: 30vh;
+        width: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-bottom: 1px solid orange;
+        border-top: 1px solid orange;
+    }
+
+    .parallax5 {
+        background-image: url('img/innocars_poland16.jpg');
+        height: 30vh;
+        width: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-bottom: 1px solid orange;
+        border-top: 1px solid orange;
+    }
+
+    .parallax6 {
+        background-image: url('img/innocars_poland8.jpg');
+        height: 100vh;
+        width: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-bottom: 1px solid orange;
+        border-top: 1px solid orange;
+    }
+
+}
+
+@media (min-width: 480px) {
+
+    nav {
+        height: 90px;
+    }
+
+    nav h1 {
+        font-size: 30px;
+        margin-right: 100px;
+
+    }
+
+    nav i {
+        padding: 15px 10px 0 20px;
+        font-size: 30px;
+    }
+
+
+    nav li {
+        font-size: 15px;
+    }
+
+    .adres {
+        float: left;
+        padding: 5px 50px 0 5px;
+    }
+
+    .adres i {
+        color: black;
+
+    }
+
+    /* .contact i {
+        padding-top: 20px;
+    } */
+
+    footer p {
+        text-align: left;
+    }
+
+    footer .media i {
+        display: block;
+        padding: 0 40px 0 40px;
+
+    }
+
+
+    .flex-content {
+        width: 50vw;
+        /* font-size: 32px; */
+        text-align: center;
+
+    }
+
+    .flex-content img {
+        margin: 10px auto;
+        display: block;
+        width: 70%;
+        padding: 10px;
+
+
+    }
+
+}
+
+
+@media (min-width: 767px) {
+
+    .mobile-menu{
+        display: none;
+    }
+
+.menu{
+    display: inline;
+}
+/* 
+nav h1{
+    padding-right: 30% ;
+} */
+
+    /* Ostylowanie nawigacji */
+
+    .menu ul {
+        list-style: none;
+        float: left;
+    }
+
+    .menu ul>li {
+        margin: 0;
+        padding: 0;
+        float: left;
+        position: relative;
+        height: 30px;
+    }
+
+    .menu ul>li>a {
+        padding: 10px;
+        color: black;
+        text-decoration: none;
+    }
+
+    .menu ul>li>a:hover,
+    .menu ul>li:hover>a {
+        color: black;
+        text-decoration: underline;
+        transition: .2s;
+    }
+
+    .menu ul>li ul {
+        padding: 0;
+        position: absolute;
+        display: none;
+        left: 0px;
+        top: 30px;
+        width: 350px;
+        text-align: left;
+        background-color: black;
+        border: 1px solid white;
+
+    }
+
+    .menu ul li:hover>ul {
+        display: block;
+    }
+
+    .menu i {
+        font-size: 20px;
+    }
+
+    .menu ul>li ul ul {
+        left: 200px;
+        top: -1px;
+    }
+
+    .menu ul>li ul li {
+        margin: 0;
+        padding: 0;
+        position: relative;
+        float: none;
+        height: auto;
+    }
+
+    .menu ul>li ul li a {
+        padding: 10px 20px;
+        color: white;
+        text-decoration: none;
+        display: block;
+    }
+
+    .menu ul>li ul li a:hover,
+    .menu ul>li ul li:hover>a {
+        text-decoration: none;
+        color: black;
+        background-color: #f26c4f;
+
+        /* koniec stylowania nawigacji */
+    }
+
+
+    nav h1 {
+        font-size: 30px;
+        margin-right: 400px;
+
+    }
+
+    nav i {
+        padding: 15px 10px 0 20px;
+        font-size: 30px;
+    }
+
+
+    nav li {
+        font-size: 20px;
+    }
+
+    .adres {
+        float: left;
+        padding: 5px 100px 0 180px;
+    }
+
+    .adres i {
+        color: white;
+        padding: 0 15px 0 0;
+    }
+
+    .contact i {
+        padding-top: 20px;
+    }
+
+    .txt {
+        text-align: justify;
+        margin: 20px 40px 20px 40px;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+
+
+
+    nav {
+        height: 120px;
+    }
+
+    nav h1 {
+        font-size: 50px;
+        margin-right: 480px;
+
+    }
+
+    nav i {
+        padding: 15px 10px 0 20px;
+        font-size: 50px;
+        transition: .2s;
+    }
+
+    nav i.fa-youtube:hover {
+        color: red
+    }
+
+    nav i.fa-facebook-f:hover {
+        color: dodgerblue;
+    }
+
+    nav i.fa-instagram:hover {
+        color: deeppink;
+    }
+
+
+    .offer,
+    .diagnostic,
+    .program,
+    .retro {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-basis: 33%;
+
+    }
+
+    .photo img {
+        order: 1;
+        width: 49vw;
+        padding-top: 39%;
+    }
+
+    .txt {
+        order: 2;
+        width: 39vw;
+    }
+
+
+
+    nav li {
+        font-size: 20px;
+    }
+
+    .adres {
+        float: left;
+        padding: 5px 100px 0 180px;
+    }
+
+    .adres i {
+        color: white;
+        padding: 0 15px 0 0;
+    }
+
+    .contact i {
+        padding-top: 20px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+
+
+    nav {
+        height: 150px;
+    }
+
+    nav h1 {
+        font-size: 40px;
+        margin-right: 100px;
+        /* padding-top: 20px; */
+        /* padding-bottom: 20px; */
+        float: left;
+
+    }
+
+    nav i {
+        padding: 25px 20px 0 20px;
+        font-size: 40px;
+        transition: .2s;
+        margin-left: 70vw;
+    }
+
+    nav li {
+        font-size: 25px;
+    }
+
+    .adres {
+        float: left;
+        padding: 5px 100px 0 280px;
+    }
+
+    .offer,
+    .diagnostic,
+    .program,
+    .retro {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-basis: 33%;
+
+
+    }
+
+
+
+   
+
+    
+}
+
+@media (min-width: 1400px) {
+
+ 
+
+    footer {
+        height: 150px;
+    }
+
+    .adres {
+        float: left;
+        padding: 5px 100px 0 30%;
+        font-size: 25px;
+    }
+
+
+
+    .contact {
+        border-top: 1px solid orange;
+    }
+
+    .contact i {
+        padding-top: 20px;
+        font-size: 35px;
+    }
+
+    .contact p {
+        font-size: 35px;
+    }
+
+    .diagnostic {
+        display: flex;
+        /* flex-basis: 40%; */
+        background-color: white;
+        color: black;
+    }
+
+    .diagnostic .txt {
+        padding: 20px 10px 20px 40px;
+
+        color: black;
+        justify-content: left;
+        /* background: rgb(63,94,251);
+        background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,0.30994404597776615) 100%); */
+    }
+
+    .diagnostic p {
+        text-align: justify;
+    }
+
+    .flex-content {
+        width: 33vw;
+         /* padding: 40px; */
+        color: black;
+        padding: 20px 10px 20px 10px;
+        text-align: center;
+
+    }
+
+    nav h1 {
+        font-size: 40px;
+        padding-right: 40%;
+        /* padding-top: 20px; */
+        /* padding-bottom: 20px; */
+        /* float: left; */
+
+    }
+
+    nav i {
+        padding: 20px 10px 0 10px;
+        font-size: 40px;
+        transition: .2s;
+        margin-left: 10vw;
+        
+
+    }
+}

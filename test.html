@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Menu mobilne</title>
+    <script src="http://code.jquery.com/jquery-2.2.2.min.js"></script>
+    <style>
+
+        /* .mobile-menu{
+            display: none;
+        } */
+        #menu-button {
+            display: none;
+        }
+
+        #menu {
+            list-style: none;
+            float: left;
+            width: 100%;
+        }
+
+        #menu li {
+            float: left;
+            display: block;
+            padding: 0 1%;
+        }
+
+        #menu li a {
+            text-decoration: none;
+            color: #222;
+        }
+
+        /* @media screen and (min-width: 480px) {
+            #menu {
+                display: block !important;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            #menu {
+                display: none;
+            } */
+
+            #menu li {
+                width: 100%;
+                padding: 2% 0;
+            }
+
+            #menu-button {
+                display: block;
+            }
+        
+    </style>
+</head>
+
+<body>
+    <div class="mobile-menu">
+    <div id="wrapper">
+        <div id="header">
+            <button id="menu-button">MENU</button>
+            <ul id="menu">
+                <li><a href="market.html">Oferta</a>
+                  <ul>
+                    <li><a href="market.html#Innocars- oferta">Giełda / Oferty</a></li>
+                    <li><a href="market.html#diagnostic">Diagnostyka</a>
+                    <li><a href="market.html#program">Programowanie kodowanie</a>
+                    <li><a href="market.html#retrofitting">Retrofitting</a>
+                    <li><a href="market.html#conversion-offer">Konwersja USA -> EU</a>
+                  </ul>
+                </li>
+                <li><a href="events.html">Wynajem</a>
+                  <ul>
+                    <li><a href="events.html">events.innocars.pl</a></li>
+        
+                  </ul>
+                </li>
+                <li><a href="knowledge.html">Baza Wiedzy</a>
+                  <ul>
+                    <li><a href="knowledge.html#tuning">Tuning</a>
+                    <li><a href="knowledge.html#retrofitting">Retrofitting</a>
+                    <li><a href="knowledge.html#import">Import zza oceanu</a>
+                    <li><a href="knowledge.html#konwersja">Konwersja USA->EU</a>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="index.html">O Firmie</a>
+                  <ul>
+                    <li><a href="index.html#kim">Informacje</a>
+                    <li><a href="index.html#news">Aktualności</a>
+                  </ul>
+                <li><a href="contact.html">Kontakt</a>
+                  <ul>
+                    <li><a href="contact.html#Innocars- oferta">Dane Firmy</a>
+                    <li><a href="contact.html#lokalizacja">Lokalizacja</a>
+                  </ul>
+                </li>
+              </ul>
+        </div>
+    </div>
+</div>
+    <script>
+        $(document).ready(function () {
+            $('#menu-button').click(function () {
+                $('#menu').stop().slideToggle(300);
+            });
+        });
+    </script>
+</body>
+
+</html>
